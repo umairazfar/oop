@@ -1,0 +1,21 @@
+You are going to Write your own String class. Let us call it SuperString
+
+The class will have constructor, overloaded constructor THAT TAKES IN A CHARACTER ARRAY, destructor, copy constructor
+
+It will have a character array pointer as an attribute.
+
+It will have the following functions
+
+Join FUNCTION that takes in 2 CHARACTER ARRAYS and joins them together and returns a longer SuperString
+
+An overloaded Join FUNCTION that takes in two SuperStrings and joins them together and returns a longer SuperString
+
+Slice function that takes the starting index and ending index and returns a sliced SuperString.
+
+Show function that shows the SuperString
+
+Empty that empties the SuperString.
+
+LENGTH THAT RETURNS THE LENGTH OF THE SuperString
+
+Start from defining the Constructors and Destructor!

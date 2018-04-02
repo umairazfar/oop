@@ -1,0 +1,7 @@
+For this class exercise, define the Rectangle and Triangle class.
+
+First create the objects and call their Area() functions
+
+Then use copy constructor to copy values in between the different objects of the same class.
+
+Finally, create their pointers, dynamically allocate and de-allocate them.

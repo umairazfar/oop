@@ -1,0 +1,19 @@
+Exercise01
+
+In this exercise define a stack that stores All types of units.
+
+Then create units of type Tank and ArmoredCar and put them inside the stack
+
+The stack should draw all the units
+
+deleting the stack should delete all units
+
+Exercise02
+
+Use the code of the DoublyLinked List and make two extra functions
+
+int DequeueAt(int);
+
+void EnqueueAt(int value, int location);
+
+Make both work in all possible scenarios.

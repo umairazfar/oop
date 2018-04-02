@@ -1,0 +1,21 @@
+Exercise - 1
+
+Create a Stack class which holds the Truck values
+
+Dynamically allocate the Stack class
+
+Create a class "Truck" as you did in previous assignment. But this time, it will not have a random number of boxes as done previously.
+
+Take input from the user to fill all the attributes of the truck (all trucks will be dynamically created)
+
+Keep adding truck entries till the user chooses not to.
+
+Display all the entries
+
+Deallocate the Stack class
+
+Exercise - 2
+
+Recreate Exercise - 1, but this time the trucks hold a dynamic array of Boxes
+
+Ensure that there are no memory leaks!!!!

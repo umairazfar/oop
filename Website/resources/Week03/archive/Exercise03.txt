@@ -1,0 +1,41 @@
+Class Exercise 01:
+------------------
+
+Define 3 structures namely Rectangle, Circle and Triangle.
+
+Define their attributes
+
+Define their constructors
+
+Define a Function called Area that returns the area of the shapes
+
+Once completed, change all the structures into classes and make corrections to the code so that it works with the classes.
+
+Class Exercise 02:
+------------------
+
+Create a structure called Course, that has the following information
+
+Name:		Object Oriented Programming & Design Methodolgy
+Code:		CS-224
+id:			224
+credits:	4
+
+similarly you can define more courses like this so create an appropriate structure with appropriate attributes with correct data types.
+
+Then define a structure of a student that has the following information:
+
+Name:		John Doe
+id:			jd1101
+year:		Sophomore
+
+It should have an array of courses with length 5
+
+You should be able to read the course data from a file and create an array of courses of dynamic length that stores that data.
+
+It should also do the same with student data.
+
+You will then assign random courses to students in such a way that no courses is repeated.
+
+Once done, change all the structures to classes and change the code accordingly.
+
