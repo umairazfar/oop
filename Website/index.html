@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Object Oriented Programming &amp; Design Methodology</title>
+	<meta name="description" content="Object Oriented Programming Course Description" />
+	<meta name="keywords" content="blueprint, template, html, css, menu, responsive, mobile-friendly" />
+	<meta name="author" content="Umair Azfar Khan" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- food icons -->
+	<link rel="stylesheet" type="text/css" href="css/organicfoodicons.css" />
+	<!-- demo styles -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- menu styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<script src="js/modernizr-custom.js"></script>
+	<script>
+	</script>
+</head>
+
+<body>
+<!-- Main container -->
+<div class="container">
+	<!-- Blueprint header -->
+	<header class="bp-header cf">
+		<div class="dummy-logo">
+			<div class="dummy-icon foodicon foodicon--keyboard"></div>
+			<h2 class="dummy-heading">Object Oriented Programming &amp Design Methodology</h2>
+		</div>
+		<div class="bp-header__main">
+			<span class="bp-header__present" >About <span class="bp-tooltip bp-icon bp-icon--about" data-content="The site contains all the details related to the course according to the last update on 31st of August 2016. All content is subject to change as deemed necessary."></span></span>
+			<nav class="bp-nav">
+				<a class="bp-nav__item bp-icon bp-icon--home" href="http://sites.sse.habib.edu.pk/courses/cs110/cs246/" data-info="Return to Course Home Page"><span>return to Course Home Page</span></a>
+				<a class="bp-nav__item bp-icon bp-icon--department" href="https://habib.edu.pk/academics/sse/computer-science/" data-info="Return to Department Page"><span>return to Department Home Page</span></a>
+				<a class="bp-nav__item bp-icon bp-icon--building" href="https://habib.edu.pk" data-info="Return to Habib University"><span>Return to Habib University</span></a>
+			</nav>
+		</div>
+	</header>
+	<button class="action action--open" aria-label="Open Menu"><span class="icon icon--menu"></span></button>
+	<nav id="ml-menu" class="menu">
+		<button class="action action--close" aria-label="Close Menu"><span class="icon icon--cross"></span></button>
+		<div class="menu__wrap">
+			<ul data-menu="main" class="menu__level ">
+				<li class="menu__item "><a class="menu__link " href="#" data-submenu="submenu-instructors">Staff</a></li>				<li class="menu__item "><a class="menu__link " href="#">Objectives/Description</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Learning Outcomes</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Requirements/Resources</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Grading Procedures</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Attendance Policy</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Academic Integrity</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Course Schedule / Topics</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Assignments / MidTerms</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Projects Archive</a></li>
+			</ul>
+
+			<ul data-menu="submenu-instructors" class="menu__level">
+				<li class="menu__item"><a class="menu__link" href="#" data-submenu="submenu-1">Professors</a></li>
+				<li class="menu__item"><a class="menu__link" href="#" data-submenu="submenu-2">Research Assistants</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Ehsas TAs</a></li>
+			</ul>
+
+			<!-- Submenu 1 -->
+			<ul data-menu="submenu-1" class="menu__level">
+				<li class="menu__item"><a class="menu__link" href="#">Dr. Umair Azfar Khan</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Dr. Taj Muhammad Khan</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Ms. Asma Larik</a></li>
+			</ul>
+
+			<ul data-menu="submenu-2" class="menu__level">
+				<li class="menu__item"><a class="menu__link" href="#">Aisha Batool</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Ata ur Rehman</a></li>
+				<li class="menu__item"><a class="menu__link" href="#">Nadia Nasir</a></li>
+			</ul>
+		</div>
+	</nav>
+	<div class="content">
+		<h1 id="CourseTitle">Object Oriented Programming &amp Design Methodology</h1>
+		<p class="info">The concept of Object Oriented Programming &amp Design is to think in terms of individual objects as opposed to functions that manipulate data. You distribute a problem into a series of objects. Every object holds in itself all the functionality related to that object. Mostly, the internal data is hidden so that the user does not need to worry about how the data is used as long as the object gives a desired response. <br><br>This makes the code easier to manage and debug because we can isolate the problem to an object rather than finding the function that is causing error. Another useful feature is the code reusability and inheritance. Once a suitable code has been made, we can use it in any future project without the need of rewriting the code. At the same time, we can create new code that builds on the previous one by inheriting its properties and functionalities. <br><br>The aim of this course is to help students understand the Object Oriented Programming &amp Design through intensive programming activities. Students do this by doing weekly assignments where they learn the basics for creating a game. By doing so, they learn about memory management, real-time object interaction and data structures. With visual feedback, the students get a good idea about the underlying memory management issues and acquire problem solving capabilities.</p>
+		<!-- Ajax loaded content here -->
+	</div>
+</div>
+<!-- /view -->
+<script src="js/classie.js"></script>
+<script src="js/oopdata.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    (function() {
+        var menuEl = document.getElementById('ml-menu'),
+            mlmenu = new MLMenu(menuEl, {
+                // breadcrumbsCtrl : true, // show breadcrumbs
+                // initialBreadcrumb : 'all', // initial breadcrumb text
+                backCtrl : false, // show back button
+                // itemsDelayInterval : 60, // delay between each menu item sliding animation
+                onItemClick: loadOOPData // callback: item that doesn´t have a submenu gets clicked - onItemClick([event], [inner HTML of the clicked item])
+            });
+
+        // mobile menu toggle
+        var openMenuCtrl = document.querySelector('.action--open'),
+            closeMenuCtrl = document.querySelector('.action--close');
+
+        openMenuCtrl.addEventListener('click', openMenu);
+        closeMenuCtrl.addEventListener('click', closeMenu);
+
+        function openMenu() {
+            classie.add(menuEl, 'menu--open');
+        }
+
+        function closeMenu() {
+            classie.remove(menuEl, 'menu--open');
+        }
+
+        // simulate grid content loading
+        var gridWrapper = document.querySelector('.content');
+
+        function loadOOPData(ev, itemName) {
+            ev.preventDefault();
+
+            closeMenu();
+            gridWrapper.innerHTML = '';
+            classie.add(gridWrapper, 'content--loading');
+            setTimeout(function() {
+                classie.remove(gridWrapper, 'content--loading');
+                gridWrapper.innerHTML = '<ul class="products">' + OOPData[itemName] + '<ul>';
+            }, 500);
+        }
+    })();
+</script>
+<!--script src="js/topics.js"></script-->
+</body>
+
+</html>
