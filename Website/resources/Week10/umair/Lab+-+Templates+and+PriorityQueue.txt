@@ -1,0 +1,11 @@
+You have been given the code for priority queue
+
+Your task is to convert this queue into a template class
+
+Now recall your assignment number 3 where you were drawing rectangles
+
+change the assignment code such that you now draw a right angle triangle and an isosceles triangle
+instead of points and lines. right angled triangles have the highest priority, then isosceles and finally
+rectangles.
+
+now when you right click a shape, only that shape should disappear

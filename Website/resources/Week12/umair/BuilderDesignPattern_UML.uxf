@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>220</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Wheel
+--
++size : int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>330</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Engine
+--
++horsepower : int</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>190</x>
+      <y>440</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Body
+--
++shape : string</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>330</y>
+      <w>210</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>car
+--
++specifications() : void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>250</y>
+      <w>190</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-
+m2=0...4</panel_attributes>
+    <additional_attributes>170.0;80.0;170.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>360</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>390</x>
+      <y>390</y>
+      <w>190</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>170.0;10.0;170.0;90.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>790</x>
+      <y>320</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>/Builder/
+--
+/+getWheel() : Wheel*/
+/+getEngine() : Engine*/
+/+getBody() : Body*/</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1090</x>
+      <y>320</y>
+      <w>310</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Director
+--
++setBuilder(newBuilder: Builder* ) : void
++getCar(): Car*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>910</x>
+      <y>540</y>
+      <w>170</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>NissanBuilder
+--
++getWheel() : Wheel*
++getEngine() : Engine*
++getBody() : Body*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>690</x>
+      <y>540</y>
+      <w>180</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>JeepBuilder
+--
++getWheel() : Wheel*
++getEngine() : Engine*
++getBody() : Body*</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>880</x>
+      <y>400</y>
+      <w>130</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;110.0;90.0;110.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>400</y>
+      <w>140</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;10.0;120.0;90.0;10.0;90.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>990</x>
+      <y>340</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>lt=-
+&lt; uses</panel_attributes>
+    <additional_attributes>100.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>620</x>
+      <y>240</y>
+      <w>530</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+&lt; builds</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;20.0;510.0;20.0;510.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>130</x>
+      <y>400</y>
+      <w>720</w>
+      <h>250</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>60.0;80.0;10.0;80.0;10.0;230.0;480.0;230.0;480.0;60.0;700.0;60.0;700.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>120</x>
+      <y>360</y>
+      <w>740</w>
+      <h>300</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>70.0;10.0;10.0;10.0;10.0;280.0;500.0;280.0;500.0;110.0;720.0;110.0;720.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>110</x>
+      <y>250</y>
+      <w>760</w>
+      <h>420</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+</panel_attributes>
+    <additional_attributes>80.0;10.0;10.0;10.0;10.0;400.0;520.0;400.0;520.0;230.0;740.0;230.0;740.0;160.0</additional_attributes>
+  </element>
+</diagram>

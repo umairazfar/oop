@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>250</y>
+      <w>210</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Singleton
+--
+-value: int
+_-instacce: Singleton_
+--
+-Singleton()
++GetValue(): int
++SetValue(value:int): void
+_+GetInstance(): Singleton*_
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>940</x>
+      <y>260</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Returns a unique instance
+bg=gray
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>810</x>
+      <y>320</y>
+      <w>200</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=.
+</panel_attributes>
+    <additional_attributes>10.0;50.0;180.0;50.0;180.0;10.0</additional_attributes>
+  </element>
+</diagram>

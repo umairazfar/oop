@@ -1,0 +1,5 @@
+First of all you need to define a queue that stores integers
+
+then change its code to create a template for queue
+
+then convert the template into a circular queue
