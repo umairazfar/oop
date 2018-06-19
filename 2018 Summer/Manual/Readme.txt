@@ -1,0 +1,1 @@
+This manual will be updated every semester
