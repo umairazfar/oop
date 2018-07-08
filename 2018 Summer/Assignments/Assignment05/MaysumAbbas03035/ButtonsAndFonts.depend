@@ -1,0 +1,125 @@
+# depslib dependency file v1.0
+1530735759 source:c:\users\fujitsu\desktop\c++ summer codes\week 4\buttonsandfonts\character.cpp
+	"Character.h"
+	<iostream>
+
+1530692925 c:\users\fujitsu\desktop\c++ summer codes\week 4\buttonsandfonts\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+
+1530685453 c:\users\fujitsu\desktop\c++ summer codes\week 4\buttonsandfonts\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1530685453 c:\users\fujitsu\desktop\c++ summer codes\week 4\buttonsandfonts\point.h
+
+1530685453 source:c:\users\fujitsu\desktop\c++ summer codes\week 4\buttonsandfonts\ltexture.cpp
+	"LTexture.h"
+
+1530736254 source:c:\users\fujitsu\desktop\c++ summer codes\week 4\buttonsandfonts\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"LTexture.h"
+	"Character.h"
+	"Word.h"
+	"Button.h"
+
+1530735497 c:\users\fujitsu\desktop\c++ summer codes\week 4\buttonsandfonts\word.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	"Character.h"
+
+1530736227 source:c:\users\fujitsu\desktop\c++ summer codes\week 4\buttonsandfonts\word.cpp
+	"Word.h"
+	<iostream>
+
+1530736228 source:c:\users\fujitsu\desktop\c++ summer codes\week 4\buttonsandfonts\button.cpp
+	"Button.h"
+	<iostream>
+
+1530735913 c:\users\fujitsu\desktop\c++ summer codes\week 4\buttonsandfonts\button.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	"Character.h"
+	"Word.h"
+
+1531041933 source:c:\users\minhaj ahmed moin\downloads\assignment 5\maysumabbas03035\button.cpp
+	"Button.h"
+	<iostream>
+
+1530689114 c:\users\minhaj ahmed moin\downloads\assignment 5\maysumabbas03035\button.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	"Character.h"
+	"Word.h"
+
+1530638654 c:\users\minhaj ahmed moin\downloads\assignment 5\maysumabbas03035\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1530638654 c:\users\minhaj ahmed moin\downloads\assignment 5\maysumabbas03035\point.h
+
+1530646126 c:\users\minhaj ahmed moin\downloads\assignment 5\maysumabbas03035\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+
+1530688698 c:\users\minhaj ahmed moin\downloads\assignment 5\maysumabbas03035\word.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	"Character.h"
+
+1530688960 source:c:\users\minhaj ahmed moin\downloads\assignment 5\maysumabbas03035\character.cpp
+	"Character.h"
+	<iostream>
+
+1530638654 source:c:\users\minhaj ahmed moin\downloads\assignment 5\maysumabbas03035\ltexture.cpp
+	"LTexture.h"
+
+1530689428 source:c:\users\minhaj ahmed moin\downloads\assignment 5\maysumabbas03035\word.cpp
+	"Word.h"
+	<iostream>
+
+1531042140 source:c:\users\minhaj ahmed moin\downloads\assignment 5\maysumabbas03035\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"LTexture.h"
+	"Character.h"
+	"Word.h"
+	"Button.h"
+
