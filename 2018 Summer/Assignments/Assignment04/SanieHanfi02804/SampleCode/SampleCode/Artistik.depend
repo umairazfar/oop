@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1529928951 source:c:\users\asad osman\onedrive - habib university\oop\assignment 4\samplecode\main.cpp
+	<SDL.h>
+	<stdio.h>
+	<string>
+	<cmath>
+	<iostream>
+	"Rect.h"
+	"Stack.h"
+
+1529930216 c:\users\asad osman\onedrive - habib university\oop\assignment 4\samplecode\rect.h
+	"SDL.h"
+	"Point.h"
+
+1474570935 c:\users\asad osman\onedrive - habib university\oop\assignment 4\samplecode\point.h
+
+1529930181 source:c:\users\asad osman\onedrive - habib university\oop\assignment 4\samplecode\rect.cpp
+	"Rect.h"
+
+1529930181 c:\users\asad osman\onedrive - habib university\oop\assignment 4\samplecode\stack.h
+	"Node.h"
+	"Rect.h"
+
+1529926189 c:\users\asad osman\onedrive - habib university\oop\assignment 4\samplecode\node.h
+	"Rect.h"
+
+1529930181 source:c:\users\asad osman\onedrive - habib university\oop\assignment 4\samplecode\stack.cpp
+	"Stack.h"
+	<iostream>
+
