@@ -1,0 +1,168 @@
+# depslib dependency file v1.0
+1530817350 source:c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\buttonsandfonts\character.cpp
+	"Character.h"
+	"math.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+
+1530817233 c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\buttonsandfonts\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+
+1530638964 c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\buttonsandfonts\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1530638965 c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\buttonsandfonts\point.h
+
+1530638964 source:c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\buttonsandfonts\ltexture.cpp
+	"LTexture.h"
+
+1530817853 source:c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\buttonsandfonts\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"LTexture.h"
+	"Character.h"
+	"Word.h"
+	"Button.h"
+
+1530507001 source:c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\buttonsandfonts\src\word.cpp
+	"Word.h"
+
+1530642498 c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\buttonsandfonts\include\word.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+
+1530817107 source:c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\buttonsandfonts\word.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"string.h"
+	"Word.h"
+
+1530814134 c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\buttonsandfonts\word.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	"strings.h"
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	"Character.h"
+
+1530817561 source:c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\buttonsandfonts\button.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"math.h"
+	"LTexture.h"
+	"Point.h"
+	"Word.h"
+	"Button.h"
+
+1530817166 c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\buttonsandfonts\button.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	"strings.h"
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	"Word.h"
+
+1531200385 source:c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\syedfazlurrehman02910\button.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"math.h"
+	"LTexture.h"
+	"Point.h"
+	"Word.h"
+	"Button.h"
+
+1530638964 c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\syedfazlurrehman02910\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1530638965 c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\syedfazlurrehman02910\point.h
+
+1531200678 c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\syedfazlurrehman02910\word.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	"strings.h"
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	"Character.h"
+
+1530817233 c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\syedfazlurrehman02910\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+
+1531200657 c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\syedfazlurrehman02910\button.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<stdlib.h>
+	"strings.h"
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	"Word.h"
+
+1530817350 source:c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\syedfazlurrehman02910\character.cpp
+	"Character.h"
+	"math.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+
+1530638964 source:c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\syedfazlurrehman02910\ltexture.cpp
+	"LTexture.h"
+
+1531200565 source:c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\syedfazlurrehman02910\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"LTexture.h"
+	"Character.h"
+	"Word.h"
+	"Button.h"
+
+1531200505 source:c:\users\zass\my files\oopsummers\assignment05\assignment05_samplecode\syedfazlurrehman02910\word.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"string.h"
+	"Word.h"
+
