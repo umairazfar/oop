@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1530684294 source:c:\users\sahran riaz\documents\oop_assignment05\character.cpp
+	"Character.h"
+	<iostream>
+
+1530684294 c:\users\sahran riaz\documents\oop_assignment05\character.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+
+1530646524 c:\users\sahran riaz\documents\oop_assignment05\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1530644754 c:\users\sahran riaz\documents\oop_assignment05\point.h
+
+1530684294 source:c:\users\sahran riaz\documents\oop_assignment05\ltexture.cpp
+	"LTexture.h"
+
+1530519205 source:c:\users\sahran riaz\documents\oop_assignment05\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"LTexture.h"
+	"Character.h"
+	"Word.h"
+	"Button.h"
+
+1530644754 source:c:\users\sahran riaz\documents\oop_assignment05\point.cpp
+	"Point.h"
+
+1530682698 source:c:\users\sahran riaz\documents\oop_assignment05\word.cpp
+	"Word.h"
+	<string>
+
+1530682966 c:\users\sahran riaz\documents\oop_assignment05\word.h
+	"Character.h"
+	<string>
+	<iostream>
+
+1530684243 source:c:\users\sahran riaz\documents\oop_assignment05\button.cpp
+	"Button.h"
+	<iostream>
+	<string>
+
+1530683293 c:\users\sahran riaz\documents\oop_assignment05\button.h
+	"Word.h"
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	"LTexture.h"
+	"Point.h"
+	<string>
+
