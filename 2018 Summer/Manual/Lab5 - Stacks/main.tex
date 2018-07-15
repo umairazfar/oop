@@ -1,0 +1,423 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The Legrand Orange Book
+% LaTeX Template
+% Version 2.3 (8/8/17)
+%
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Compiling this template:
+% This template uses biber for its bibliography and makeindex for its index.
+% When you first open the template, compile it from the command line with the 
+% commands below to make sure your LaTeX distribution is configured correctly:
+%
+% 1) pdflatex main
+% 2) makeindex main.idx -s StyleInd.ist
+% 3) biber main
+% 4) pdflatex main x 2
+%
+% After this, when you wish to update the bibliography/index use the appropriate
+% command above and make sure to compile with pdflatex severa
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+% This template also uses a number of packages which may need to be
+% updated to the newest versions for the template to compile. It is strongly
+% recommended you update your LaTeX distribution if you have any
+% compilation errors.
+%
+% Important note:
+% Chapter heading images should have a 2:1 width:height ratio,
+% e.g. 920px width and 460px height.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,fleqn]{book} % Default font size and left-justified equations
+
+%----------------------------------------------------------------------------------------
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{makecell}
+\usepackage{tikz}
+\usepackage{float}
+\usetikzlibrary{arrows, chains}
+\lstset {
+	language=C++,
+	backgroundcolor=\color{black!5},
+	basicstyle=\footnotesize,
+	frame=tb,
+	tabsize=4,
+	showstringspaces=false,
+	commentstyle=\color{green},
+	keywordstyle=\color{blue},
+	stringstyle=\color{red},
+}
+\input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
+
+%
+% Original author:
+% Mathias Legrand (legrand.mathias@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)l times 
+% afterwards to propagate your changes to the document.
+%
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begingroup
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth]{background}};
+\draw (current page.center) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering CS-101 Programming Fundamentals\\[15pt] % Book title
+{\Large Lab Manual}\\[20pt] % Subtitle
+{\huge Habib University}}}; % Author name
+\end{tikzpicture}
+\vfill
+\endgroup
+
+%----------------------------------------------------------------------------------------
+%	COPYRIGHT PAGE
+%----------------------------------------------------------------------------------------
+
+\newpage
+~\vfill
+\thispagestyle{empty}
+
+\noindent Copyright \copyright\ 2018 Habib university\\ % Copyright notice
+
+\noindent \textsc{Published by Habib University}\\ % Publisher
+
+\noindent \textsc{book-website.com}\\ % URL
+
+\noindent Licensed under the Creative Commons Attribution-NonCommercial 3.0 Unported License (the ``License''). You may not use this file except in compliance with the License. You may obtain a copy of the License at \url{http://creativecommons.org/licenses/by-nc/3.0}. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \textsc{``as is'' basis, without warranties or conditions of any kind}, either express or implied. See the License for the specific language governing permissions and limitations under the License.\\ % License information
+
+\noindent \textit{First printing, July 2018} % Printing/edition date
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\usechapterimagefalse % If you don't want to include a chapter image, use this to toggle images off - it can be enabled later with \usechapterimagetrue
+
+\chapterimage{chapter_head_1.pdf} % Table of contents heading image
+
+\pagestyle{empty} % No headers
+
+\tableofcontents % Print the table of contents itself
+
+\cleardoublepage % Forces the first chapter to start on an odd page so it's o
+
+
+%------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+
+
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 1
+%----------------------------------------------------------------------------------------
+
+\chapterimage{chapter_head_2.pdf} % Chapter heading image
+
+
+\chapter{Stacks}\index{Lab5: Stacks}
+\section{Objective}\index{Objective}
+In this lab, we'll learn about a data structure, called Stack. We'll learn about its implementation, operations and uses.
+\section{Description}\index{Description}
+Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO (Last In First Out) or FILO (First In Last Out).\\ ~\\
+Mainly the following three basic operations are performed in the stack:
+\begin{itemize}
+\item \textbf{Push}: Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition.
+\item \textbf{Pop}: Removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition.
+\item \textbf{Peek or Top}: Returns top element of stack.
+\item \textbf{isEmpty}: Returns true if stack is empty, else false.
+\end{itemize}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.3]{stack.jpg}
+	\caption{Representation of stack}
+\end{figure}
+\newpage
+\subsection{Real-life example of stack}
+There are many real life examples of stack. Consider the simple example of plates stacked over one another in canteen. The plate which is at the top is the first one to be removed, i.e. the plate which has been placed at the bottommost position remains in the stack for the longest period of time. So, it can be simply seen to follow LIFO/FILO order.
+\subsection{Time Complexities of operations on stack}
+push(), pop(), isEmpty() and peek() all take O(1) time. We do not run any loop in any of these operations.
+
+\subsection{Applications of stack}
+There are many possible applications of stack. Some are listed below:
+\begin{itemize}
+	\item Balancing of symbols
+	\item Infix to Postfix /Prefix conversion
+	\item Redo-undo features at many places like editors, photoshop.
+	\item Forward and backward feature in web browsers
+	\item Used in many algorithms like Tower of Hanoi, tree traversals, stock span problem, histogram problem.
+	\item Other applications can be Backtracking, Knight tour problem, rat in a maze, N queen problem and sudoku solver
+\end{itemize}
+\subsection{Implementation}\index{Implementation}
+We will be implementing a linked list based stack. In a linked list based stack, we have nodes linked to each other.
+Each node stores a data and a link to the node next to it.
+\begin{figure}[H]
+	\centering
+	\includegraphics{node.jpg}
+	\caption{Representation of node}
+\end{figure}
+\paragraph{Implementing Node}
+To implement node, we will be making a struct to hold data and the link. In this implementation we are making a node to store integer type data. However, it can be implemented to store any data type or object.
+\begin{lstlisting}
+struct Node
+{
+	int data; \\To store data
+	Node* next; \\To store the address or link to the next node
+};
+\end{lstlisting}
+\newpage
+\paragraph{Initializing the Stack}
+As a stack consists of many nodes, we should have many nodes inside our stack class, but we will have only one node, "head", which will act as a reference node and allows us to iterate through all the nodes till the end of the stack.
+
+\begin{lstlisting}
+class Stack
+{
+	private:
+		Node* head;
+		
+	public:
+		Stack()
+		{
+			head = NULL;
+		}
+};		
+
+\end{lstlisting}
+Our stack now consists of a Node pointer which will hold the address of the head (i.e the top element) of the stack. To initialize, it is set to \textbf{NULL}, as the stack is empty.
+\begin{figure}[H]
+	\centering
+	\includegraphics{head.jpg}
+	\caption{Stack's head pointer}
+\end{figure}
+
+\paragraph{Implementing Push() operation}
+Inside the class of Stack, we will declare and define a function "Push(int val)" in public.
+\begin{lstlisting}
+void Push(int val)
+{
+	if (head == NULL)
+	{
+		head = new Node;
+		head->data = val;
+		head->next = NULL;
+	}
+	else
+	{
+		Node* temp = head;
+		head = new Node;
+		head->data = val;
+		head->next = temp;
+	}
+}
+\end{lstlisting}
+\newpage
+\begin{example}
+Let's visualize an example Push() operation\\
+\begin{lstlisting}
+Stack stack;
+stack.Push(5);
+\end{lstlisting}
+Since the stack is empty and head is set to NULL. Body of 'if' will be executed.\\
+It first creates a new node\\
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{push(1).jpeg}
+	\caption{Creating new node for Push(5)}
+\end{figure}
+~\\
+Then it sets head pointer to the new node.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{push(2).jpeg}
+	\caption{Setting head pointer}
+\end{figure}
+~\\
+Then it sets the data and next pointer of new node.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{push(3).jpeg}
+	\caption{Setting data and next pointer}
+\end{figure}
+\end{example}
+\newpage
+Since, head is not \textbf{NULL}, Push operation will now execute body of 'else'. Let's see an example
+\begin{example}
+\begin{lstlisting}
+stack.Push(3);
+\end{lstlisting}
+It will first create a temporary node pointer, temp.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{push(4).jpeg}
+	\caption{Creating temp pointer}
+\end{figure} ~\\
+Then it sets the temp to the node where head is pointing
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{push(5).jpg}
+	\caption{Setting temp node}
+\end{figure}
+It now creates a new node and sets head to the newly created node.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{push(6).jpeg}
+	\caption{Setting head to the new node}
+\end{figure}
+It sets the newly created node's next pointer to the node being pointed by temp.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{push(7).jpg}
+	\caption{Setting next pointer}
+\end{figure}
+The temp gets destroyed since it was a local variable of the function and 3 is added succesfully.
+\textsc{\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{push(8).jpeg}
+	\caption{Succesful Push(3) operation}
+\end{figure}}
+\end{example}
+\newpage
+\paragraph{Implementing Pop() Operation}
+Inside the class of Stack, we will declare and define a function "Pop()" in public.
+\begin{lstlisting}
+int Pop()
+{
+	int val = -1;
+	if(head != NULL)
+	{
+		Node* temp = head;
+		head = head->next;
+		val = temp->data;
+		delete temp;
+		temp = NULL;
+	}
+	return val;
+}
+\end{lstlisting}
+Let's visualize an example of Pop() operation
+\begin{example}
+	\begin{lstlisting}
+stack.Pop();
+	\end{lstlisting}
+
+This is the stack on which pop() will be called.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{pop(1).jpeg}
+	\caption{Stack before pop()}
+\end{figure} ~\\
+After checking the head pointer if it is not NULL, it creates a temp pointer and stores the address of node pointed by head in it.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{pop(2).jpeg}
+	\caption{Creating temp pointer}
+\end{figure} ~\\
+It updates the head pointer to the node next to head
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{pop(3).jpeg}
+	\caption{Updating head pointer}
+\end{figure} ~\\
+It now deletes the node pointed by temp.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{pop(4).jpeg}
+	\caption{Deleting the node pointed by temp}
+\end{figure} ~\\
+The temp pointer then gets destroyed and stack is updated successfully.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{pop(5).jpeg}
+	\caption{Succesful pop() operation}
+\end{figure}
+\end{example} ~\\
+\paragraph{Implementing Show() function}
+The Show()  function allows to output all the values in the stack. \\
+Inside the class of Stack, we will declare and define a function "void Show()" in public.
+\begin{lstlisting}
+void Show()
+	Node* temp = head;
+	while(temp!=NULL)
+	{
+		std::cout<<temp->data<<std::endl;
+		temp = temp->next;
+	}
+\end{lstlisting}
+
+Let's visualize an example of Show() operation
+\begin{example}
+	\begin{lstlisting}
+	stack.Show();
+	\end{lstlisting}
+Creating the temp pointer and points it to the node pointed by head.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{show(1).jpeg}
+	\caption{Creating temp pointer}
+\end{figure} ~\\
+Now it outputs the vaue stored in the node pointed by temp.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{show(2).jpeg}
+	\caption{Outputting first value}
+\end{figure} ~\\
+It updates the temp pointer and moves to the next node. Then it outputs the value of the node pointed by temp.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{show(3).jpeg}
+	\caption{Updating temp pointer and outputting value}
+\end{figure} ~\\
+It repeats the updating of temp pointer and outputs the value
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{show(4).jpeg}
+	\caption{Updating the temp pointer to the third node and outputs the value}
+\end{figure} ~\\
+The loop gets stopped now because the temp is now set to NULL.
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{show(5).jpeg}
+	\caption{Updating the temp pointer to the third node and outputs the value}
+\end{figure}
+\end{example}
+\newpage
+ \section{Problems}\index{Problems}
+ \begin{problem}
+ 	Implement the isEmpty() function in your Stack class. The function should return true if the stack is empty and return false if not.
+ 	\paragraph{Instructions}
+ 	\begin{itemize}
+ 		\item Think about the value stored in head pointer when the stack is Empty
+ 	\end{itemize}
+ \end{problem}
+~\\
+\begin{problem}
+	Implement the  functions Top() and Bottom() in your Stack class. The Top() function should return the top element of the stack. The Bottom() function should return the element on the bottom of the stack.
+	\paragraph{Instructions}
+		\begin{itemize}
+			\item Top() function is easy to implement after doing the problem above. Use head pointer to implement this function
+			\item For Bottom() function, think how to iterate over the stack till the bottom using only head pointer and a temporary pointer.
+		\end{itemize}
+\end{problem}
+\newpage
+
+
+\section{Feedback}\index{Feedback}
+\textbf{Please write the things you've learned from this lab and suggestions to make it more better and easy to learn.}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
