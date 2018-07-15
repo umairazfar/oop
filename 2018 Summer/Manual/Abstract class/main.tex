@@ -1,0 +1,233 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The Legrand Orange Book
+% LaTeX Template
+% Version 2.3 (8/8/17)
+%
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Compiling this template:
+% This template uses biber for its bibliography and makeindex for its index.
+% When you first open the template, compile it from the command line with the 
+% commands below to make sure your LaTeX distribution is configured correctly:
+%
+% 1) pdflatex main
+% 2) makeindex main.idx -s StyleInd.ist
+% 3) biber main
+% 4) pdflatex main x 2
+%
+% After this, when you wish to update the bibliography/index use the appropriate
+% command above and make sure to compile with pdflatex severa
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+% This template also uses a number of packages which may need to be
+% updated to the newest versions for the template to compile. It is strongly
+% recommended you update your LaTeX distribution if you have any
+% compilation errors.
+%
+% Important note:
+% Chapter heading images should have a 2:1 width:height ratio,
+% e.g. 920px width and 460px height.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,fleqn]{book} % Default font size and left-justified equations
+
+%----------------------------------------------------------------------------------------
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{makecell}
+\usepackage{tikz}
+\usepackage{float}
+\usetikzlibrary{arrows, chains}
+\lstset {
+	language=C++,
+	backgroundcolor=\color{black!5},
+	basicstyle=\footnotesize,
+	frame=tb,
+	tabsize=4,
+	showstringspaces=false,
+	commentstyle=\color{green},
+	keywordstyle=\color{blue},
+	stringstyle=\color{red},
+}
+\input{structure} % Insert the commands.tex file which contains the majority of the structure behind the template
+
+%
+% Original author:
+% Mathias Legrand (legrand.mathias@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)l times 
+% afterwards to propagate your changes to the document.
+%
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\begingroup
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+\node[inner sep=0pt] (background) at (current page.center) {\includegraphics[width=\paperwidth]{background}};
+\draw (current page.center) node [fill=ocre!30!white,fill opacity=0.6,text opacity=1,inner sep=1cm]{\Huge\centering\bfseries\sffamily\parbox[c][][t]{\paperwidth}{\centering CS-101 Programming Fundamentals\\[15pt] % Book title
+{\Large Lab Manual}\\[20pt] % Subtitle
+{\huge Habib University}}}; % Author name
+\end{tikzpicture}
+\vfill
+\endgroup
+
+%----------------------------------------------------------------------------------------
+%	COPYRIGHT PAGE
+%----------------------------------------------------------------------------------------
+
+\newpage
+~\vfill
+\thispagestyle{empty}
+
+\noindent Copyright \copyright\ 2018 Habib university\\ % Copyright notice
+
+\noindent \textsc{Published by Habib University}\\ % Publisher
+
+\noindent \textsc{book-website.com}\\ % URL
+
+\noindent Licensed under the Creative Commons Attribution-NonCommercial 3.0 Unported License (the ``License''). You may not use this file except in compliance with the License. You may obtain a copy of the License at \url{http://creativecommons.org/licenses/by-nc/3.0}. Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \textsc{``as is'' basis, without warranties or conditions of any kind}, either express or implied. See the License for the specific language governing permissions and limitations under the License.\\ % License information
+
+\noindent \textit{First printing, July 2018} % Printing/edition date
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF CONTENTS
+%----------------------------------------------------------------------------------------
+
+%\usechapterimagefalse % If you don't want to include a chapter image, use this to toggle images off - it can be enabled later with \usechapterimagetrue
+
+\chapterimage{chapter_head_1.pdf} % Table of contents heading image
+
+\pagestyle{empty} % No headers
+
+\tableofcontents % Print the table of contents itself
+
+\cleardoublepage % Forces the first chapter to start on an odd page so it's o
+
+
+%------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	CHAPTER 1
+%----------------------------------------------------------------------------------------
+
+\chapterimage{chapter_head_2.pdf} % Chapter heading image
+
+
+\chapter{Abstract classes}
+\section{Objective}
+In this lab, we will learn about a type of class called abstract classes and its usage and implementation.
+\section{Description}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{UML.jpeg}
+	\caption{UML representation of abstract class}
+\end{figure} ~\\
+Sometimes implementation of all function cannot be provided in a base class because we don’t know the implementation. Such a class is called \textbf{abstract class}. For example, let Shape be a base class. We cannot provide implementation of function draw() in Shape, but we know every derived class must have implementation of draw(). Similarly an Animal class doesn’t have implementation of move() (assuming that all animals move), but all animals must know how to move. We cannot create objects of abstract classes. For this, we need to have at least one pure virtual function in the class. \\
+A \textbf{pure virtual function} (or abstract function) in C++ is a virtual function for which we don’t have implementation, we only declare it. A pure virtual function is declared by assigning 0 in declaration. It's done by the syntax showed below.
+\begin{lstlisting}
+// An abstract class
+class Test
+{   
+	// Data members of class
+	public:
+	// Pure Virtual Function
+	virtual void show() = 0;
+
+	/* Other members */
+};
+\end{lstlisting} ~\\
+Let's see an example in whch a pure virtual function is declared in the abstract class and then defined in the derived class.
+\begin{example}
+\begin{lstlisting}
+class Base
+{
+	int x;
+	public:
+		virtual void func() = 0;
+		int getX() 
+		{
+			return x; 
+		}
+};
+
+// This class inherits from Base and implements func()
+class Derived: public Base
+{
+	int y;
+	public:
+		void func()
+		{
+			cout << "func() called";
+		}
+};
+
+int main()
+{
+	Derived d;
+	d.func();
+	return 0;
+}
+\end{lstlisting}
+Now the abstract class has the attribute 'int x' and the function 'int GetX()'. This function will also be the part of derived class and is already defined in the base class. Now the function 'func()' is a pure virtual function which is defined in the base class and is implemented in the derived class. Now, if we create an instance of Derived class, we can access the functions 'GetX()' and 'func()'. The 'GetX()' will be called through the base class and 'func()' will be called through the derived class.
+The program above will output:
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{Class.png}
+	\caption{Output of implemented pure virtual function}
+\end{figure}
+\end{example}
+The derived class can also become an abstract class if the pure virtual function declared in base class is not defined in the derived class.
+\begin{example}
+\begin{lstlisting}
+class Base
+{
+	public:
+	virtual void show() = 0;
+};
+
+class Derived : public Base { };
+
+int main(void)
+{
+	Derived d;
+	return 0;
+}
+\end{lstlisting}
+\end{example}
+\begin{corollary}[Interface vs Abstract classes]
+An interface does not have implementation of any of its methods, it can be considered as a collection of method declarations. In C++, an interface can be simulated by making all methods as pure virtual. In Java, there is a separate keyword for interface.
+\end{corollary}
+\newpage
+\section{Problems}
+\begin{problem}
+	Make an abstract class of Shape with pure virtual function to calculate area. It should also have the attributes for the position of the Shape. The derived classes should be Square, Circle, Trapezium and Rectangle. All derived classes should implement the pure virtual function defined in the base class. 
+	\paragraph{Instructions}
+	\begin{itemize}
+		\item Make a struct for Position to have x and y coordinates.
+		\item Define the attributes for dimensions according to the shape in derived classes
+	\end{itemize}
+\end{problem} ~\\
+\begin{problem}
+	Make a base class with a pure virtual function. Derive a class from it and declare another pure virtual function in the derived class. Then derive an other class from the first derived class and declare a pure virtual function in it too. And then lastly derive another class from the second derived class, and define all the pure virtual functions in it
+\end{problem}
+\newpage
+\section{Feedback}\index{Feedback}
+\textbf{Please write the things you've learned from this lab and suggestions to make it more better and easy to learn.}
+%----------------------------------------------------------------------------------------
+%	CHAPTER 2
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
