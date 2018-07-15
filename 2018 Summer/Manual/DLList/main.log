@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.1)  15 JUL 2018 14:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.1)  15 JUL 2018 15:34
 entering extended mode
 **./main.tex
 (main.tex
@@ -1955,886 +1955,327 @@ File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
 Package pdftex.def Info: Pictures/chapter_head_1.pdf  used on input line 113.
 (pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
  (main.toc
+LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <12> not available
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pag/b/n' tried instead on input line 4.
 LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10.95> not available
 (Font)              Font shape `T1/pag/db/n' tried instead on input line 4.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 6.
-LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <12> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 8.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <12> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 8.
- [3
-
- <./Pictures/chapter_head_1.pdf>])
+)
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
- [4] [5] [6
+ [3
+
+ <./Pictures/chapter_head_1.pdf>] [4
 
 ]
-
-LaTeX Warning: Citation 'article_key' on page 7 undefined on input line 122.
-
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 122.
-
-LaTeX Warning: Citation 'book_key' on page 7 undefined on input line 122.
-
-[7] [8]
-\c@ttl@toc@default=\count460
-LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <220> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 132.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <220> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 132.
- (main.ptc)
-LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <30> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 132.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <30> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 132.
- [9
-
-] [10]
 Chapter 1.
-<Pictures/chapter_head_2.pdf, id=317, 3581.38pt x 1790.69pt>
-File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
-<use Pictures/chapter_head_2.pdf>
-Package pdftex.def Info: Pictures/chapter_head_2.pdf  used on input line 140.
-(pdftex.def)             Requested size: 597.50787pt x 298.75726pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 153.
-[11
+File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
+<use Pictures/chapter_head_1.pdf>
+Package pdftex.def Info: Pictures/chapter_head_1.pdf  used on input line 117.
+(pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
 
- <./Pictures/chapter_head_2.pdf>]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 172.
-LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 172.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 172.
-LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <6> not available
-(Font)              Font shape `T1/pag/b/n' tried instead on input line 172.
-LaTeX Font Info:    Font shape `T1/pag/b/n' in size <6> not available
-(Font)              Font shape `T1/pag/db/n' tried instead on input line 172.
-<Pictures/Allocation.PNG, id=327, 800.9925pt x 446.41782pt>
-File: Pictures/Allocation.PNG Graphic file (type png)
-<use Pictures/Allocation.PNG>
-Package pdftex.def Info: Pictures/Allocation.PNG  used on input line 204.
-(pdftex.def)             Requested size: 320.39133pt x 178.56395pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--207
+Underfull \hbox (badness 10000) in paragraph at lines 128--133
 
  []
 
-[12 <./Pictures/Allocation.PNG>]
-<Pictures/if-else.jpg, id=361, 262.73157pt x 328.22626pt>
-File: Pictures/if-else.jpg Graphic file (type jpg)
-<use Pictures/if-else.jpg>
-Package pdftex.def Info: Pictures/if-else.jpg  used on input line 214.
-(pdftex.def)             Requested size: 197.04817pt x 246.16908pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--216
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
-
- []
-
-[13 <./Pictures/if-else.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 272--274
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 272--274
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--287
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--287
-
- []
-
-<Pictures/while-loop.jpg, id=372, 225.84375pt x 281.55188pt>
-File: Pictures/while-loop.jpg Graphic file (type jpg)
-<use Pictures/while-loop.jpg>
-Package pdftex.def Info: Pictures/while-loop.jpg  used on input line 294.
-(pdftex.def)             Requested size: 169.38239pt x 211.16338pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [14]
-<Pictures/dowhile-loop.jpg, id=402, 195.73125pt x 301.8778pt>
-File: Pictures/dowhile-loop.jpg Graphic file (type jpg)
-<use Pictures/dowhile-loop.jpg>
-Package pdftex.def Info: Pictures/dowhile-loop.jpg  used on input line 329.
-(pdftex.def)             Requested size: 146.79807pt x 226.40779pt.
-
-Underfull \vbox (badness 4872) has occurred while \output is active []
-
- [15 <./Pictures/while-loop.jpg>]
-<Pictures/for-loop.jpg, id=428, 301.125pt x 378.66469pt>
-File: Pictures/for-loop.jpg Graphic file (type jpg)
-<use Pictures/for-loop.jpg>
-Package pdftex.def Info: Pictures/for-loop.jpg  used on input line 367.
-(pdftex.def)             Requested size: 225.84319pt x 283.99782pt.
- [16 <./Pictures/dowhile-loop.jpg>] [17 <./Pictures/for-loop.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 405--408
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 405--408
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 415--418
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 415--418
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 419--420
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 420--421
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--422
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 425--426
-
- []
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 431--434
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 431--434
-
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 475--477
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 481--483
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 496--497
-
- []
-
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 499--508
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 499--508
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 499--508
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 499--508
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 499--508
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 499--508
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 499--508
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 499--508
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 499--508
-
- []
-
-<Pictures/Problem1_2.png, id=546, 380.17032pt x 252.19218pt>
-File: Pictures/Problem1_2.png Graphic file (type png)
-<use Pictures/Problem1_2.png>
-Package pdftex.def Info: Pictures/Problem1_2.png  used on input line 509.
-(pdftex.def)             Requested size: 285.12703pt x 189.14366pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 517--518
-
- []
-
-[21 <./Pictures/Problem1_2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 527--528
-
- []
-
-[22] [23] [24
+[5
 
 ]
-Chapter 2.
-File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
-<use Pictures/chapter_head_2.pdf>
-Package pdftex.def Info: Pictures/chapter_head_2.pdf  used on input line 539.
-(pdftex.def)             Requested size: 597.50787pt x 298.75726pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 543--546
-
- []
-
-<Pictures/stack.jpg, id=570, 501.875pt x 346.29375pt>
-File: Pictures/stack.jpg Graphic file (type jpg)
-<use Pictures/stack.jpg>
-Package pdftex.def Info: Pictures/stack.jpg  used on input line 553.
-(pdftex.def)             Requested size: 150.56366pt x 103.88892pt.
-[25 <./Pictures/stack.jpg>]
-<Pictures/node.jpg, id=577, 122.4575pt x 62.2325pt>
-File: Pictures/node.jpg Graphic file (type jpg)
-<use Pictures/node.jpg>
-Package pdftex.def Info: Pictures/node.jpg  used on input line 578.
-(pdftex.def)             Requested size: 122.45718pt x 62.23235pt.
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 587.
- [26 <./Pictures/node.jpg>]
-<Pictures/head.jpg, id=591, 81.30376pt x 110.4125pt>
-File: Pictures/head.jpg Graphic file (type jpg)
-<use Pictures/head.jpg>
-Package pdftex.def Info: Pictures/head.jpg  used on input line 611.
-(pdftex.def)             Requested size: 81.30354pt x 110.41222pt.
- [27 <./Pictures/head.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 637--638
-
- []
-
-<Pictures/push(1).jpeg, id=628, 270.00874pt x 181.67876pt>
-File: Pictures/push(1).jpeg Graphic file (type jpg)
-<use Pictures/push(1).jpeg>
-Package pdftex.def Info: Pictures/push(1).jpeg  used on input line 646.
-(pdftex.def)             Requested size: 135.00403pt x 90.83914pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 642--648
-
- []
-
-<Pictures/push(2).jpeg, id=629, 270.00874pt x 181.67876pt>
-File: Pictures/push(2).jpeg Graphic file (type jpg)
-<use Pictures/push(2).jpeg>
-Package pdftex.def Info: Pictures/push(2).jpeg  used on input line 653.
-(pdftex.def)             Requested size: 135.00403pt x 90.83914pt.
-<Pictures/push(3).jpeg, id=630, 270.00874pt x 181.67876pt>
-File: Pictures/push(3).jpeg Graphic file (type jpg)
-<use Pictures/push(3).jpeg>
-Package pdftex.def Info: Pictures/push(3).jpeg  used on input line 660.
-(pdftex.def)             Requested size: 135.00403pt x 90.83914pt.
-[28 <./Pictures/push(1).jpeg> <./Pictures/push(2).jpeg> <./Pictures/push(3).jpe
-g>]
-<Pictures/push(4).jpeg, id=642, 270.00874pt x 332.24126pt>
-File: Pictures/push(4).jpeg Graphic file (type jpg)
-<use Pictures/push(4).jpeg>
-Package pdftex.def Info: Pictures/push(4).jpeg  used on input line 673.
-(pdftex.def)             Requested size: 135.00403pt x 166.12021pt.
-<Pictures/push(5).jpg, id=643, 270.00874pt x 332.24126pt>
-File: Pictures/push(5).jpg Graphic file (type jpg)
-<use Pictures/push(5).jpg>
-Package pdftex.def Info: Pictures/push(5).jpg  used on input line 679.
-(pdftex.def)             Requested size: 135.00403pt x 166.12021pt.
-<Pictures/push(6).jpeg, id=644, 449.68pt x 332.24126pt>
-File: Pictures/push(6).jpeg Graphic file (type jpg)
-<use Pictures/push(6).jpeg>
-Package pdftex.def Info: Pictures/push(6).jpeg  used on input line 685.
-(pdftex.def)             Requested size: 224.83945pt x 166.12021pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [29 <./Pictures/push(4).jpeg> <./Pictures/push(5).jpg>]
-<Pictures/push(7).jpg, id=654, 490.83376pt x 319.1925pt>
-File: Pictures/push(7).jpg Graphic file (type jpg)
-<use Pictures/push(7).jpg>
-Package pdftex.def Info: Pictures/push(7).jpg  used on input line 691.
-(pdftex.def)             Requested size: 245.41628pt x 159.59586pt.
-<Pictures/push(8).jpeg, id=655, 449.68pt x 110.4125pt>
-File: Pictures/push(8).jpeg Graphic file (type jpg)
-<use Pictures/push(8).jpeg>
-Package pdftex.def Info: Pictures/push(8).jpeg  used on input line 699.
-(pdftex.def)             Requested size: 224.83945pt x 55.2061pt.
- [30 <./Pictures/push(6).jpeg> <./Pictures/push(7).jpg> <./Pictures/push(8).jpe
-g>]
-<Pictures/pop(1).jpeg, id=663, 817.0525pt x 181.67876pt>
-File: Pictures/pop(1).jpeg Graphic file (type jpg)
-<use Pictures/pop(1).jpeg>
-Package pdftex.def Info: Pictures/pop(1).jpeg  used on input line 728.
-(pdftex.def)             Requested size: 408.52525pt x 90.83914pt.
-<Pictures/pop(2).jpeg, id=664, 817.0525pt x 348.30125pt>
-File: Pictures/pop(2).jpeg Graphic file (type jpg)
-<use Pictures/pop(2).jpeg>
-Package pdftex.def Info: Pictures/pop(2).jpeg  used on input line 734.
-(pdftex.def)             Requested size: 408.52525pt x 174.15019pt.
-<Pictures/pop(3).jpeg, id=665, 817.0525pt x 361.35pt>
-File: Pictures/pop(3).jpeg Graphic file (type jpg)
-<use Pictures/pop(3).jpeg>
-Package pdftex.def Info: Pictures/pop(3).jpeg  used on input line 740.
-(pdftex.def)             Requested size: 408.52525pt x 180.67456pt.
- [31 <./Pictures/pop(1).jpeg> <./Pictures/pop(2).jpeg>]
-<Pictures/pop(4).jpeg, id=691, 817.0525pt x 348.30125pt>
-File: Pictures/pop(4).jpeg Graphic file (type jpg)
-<use Pictures/pop(4).jpeg>
-Package pdftex.def Info: Pictures/pop(4).jpeg  used on input line 746.
-(pdftex.def)             Requested size: 408.52525pt x 174.15019pt.
-<Pictures/pop(5).jpeg, id=692, 640.3925pt x 181.67876pt>
-File: Pictures/pop(5).jpeg Graphic file (type jpg)
-<use Pictures/pop(5).jpeg>
-Package pdftex.def Info: Pictures/pop(5).jpeg  used on input line 752.
-(pdftex.def)             Requested size: 320.19547pt x 90.83914pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 755--756
-
- []
-
-[32 <./Pictures/pop(3).jpeg> <./Pictures/pop(4).jpeg> <./Pictures/pop(5).jpeg>]
-<Pictures/show(1).jpeg, id=700, 640.3925pt x 348.30125pt>
-File: Pictures/show(1).jpeg Graphic file (type jpg)
-<use Pictures/show(1).jpeg>
-Package pdftex.def Info: Pictures/show(1).jpeg  used on input line 777.
-(pdftex.def)             Requested size: 320.19547pt x 174.15019pt.
-<Pictures/show(2).jpeg, id=701, 640.3925pt x 391.4625pt>
-File: Pictures/show(2).jpeg Graphic file (type jpg)
-<use Pictures/show(2).jpeg>
-Package pdftex.def Info: Pictures/show(2).jpeg  used on input line 783.
-(pdftex.def)             Requested size: 320.19547pt x 195.73076pt.
-<Pictures/show(3).jpeg, id=702, 640.3925pt x 391.4625pt>
-File: Pictures/show(3).jpeg Graphic file (type jpg)
-<use Pictures/show(3).jpeg>
-Package pdftex.def Info: Pictures/show(3).jpeg  used on input line 789.
-(pdftex.def)             Requested size: 320.19547pt x 195.73076pt.
-[33 <./Pictures/show(1).jpeg> <./Pictures/show(2).jpeg>]
-<Pictures/show(4).jpeg, id=721, 640.3925pt x 391.4625pt>
-File: Pictures/show(4).jpeg Graphic file (type jpg)
-<use Pictures/show(4).jpeg>
-Package pdftex.def Info: Pictures/show(4).jpeg  used on input line 795.
-(pdftex.def)             Requested size: 320.19547pt x 195.73076pt.
-<Pictures/show(5).jpeg, id=722, 640.3925pt x 391.4625pt>
-File: Pictures/show(5).jpeg Graphic file (type jpg)
-<use Pictures/show(5).jpeg>
-Package pdftex.def Info: Pictures/show(5).jpeg  used on input line 801.
-(pdftex.def)             Requested size: 320.19547pt x 195.73076pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [34 <./Pictures/show(3).jpeg> <./Pictures/show(4).jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 813--814
-
- []
-
-[35 <./Pictures/show(5).jpeg>] [36]
-Chapter 3.
-File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
-<use Pictures/chapter_head_2.pdf>
-Package pdftex.def Info: Pictures/chapter_head_2.pdf  used on input line 828.
-(pdftex.def)             Requested size: 597.50787pt x 298.75726pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 839--844
-
- []
-
-[37
-
-]
-<Pictures/DLNode.jpeg, id=747, 142.5325pt x 62.2325pt>
+<Pictures/DLNode.jpeg, id=80, 142.5325pt x 62.2325pt>
 File: Pictures/DLNode.jpeg Graphic file (type jpg)
 <use Pictures/DLNode.jpeg>
-Package pdftex.def Info: Pictures/DLNode.jpeg  used on input line 859.
+Package pdftex.def Info: Pictures/DLNode.jpeg  used on input line 148.
 (pdftex.def)             Requested size: 142.53214pt x 62.23235pt.
- [38 <./Pictures/DLNode.jpeg>]
-<Pictures/DLList1.jpeg, id=781, 81.30376pt x 110.4125pt>
+LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <10> not available
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 151.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <10> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 151.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 157.
+ [6 <./Pictures/DLNode.jpeg>]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 183.
+<Pictures/DLList1.jpeg, id=115, 81.30376pt x 110.4125pt>
 File: Pictures/DLList1.jpeg Graphic file (type jpg)
 <use Pictures/DLList1.jpeg>
-Package pdftex.def Info: Pictures/DLList1.jpeg  used on input line 897.
+Package pdftex.def Info: Pictures/DLList1.jpeg  used on input line 186.
 (pdftex.def)             Requested size: 81.30354pt x 110.41222pt.
-<Pictures/DLList2.jpeg, id=782, 81.30376pt x 110.4125pt>
+<Pictures/DLList2.jpeg, id=116, 81.30376pt x 110.4125pt>
 File: Pictures/DLList2.jpeg Graphic file (type jpg)
 <use Pictures/DLList2.jpeg>
-Package pdftex.def Info: Pictures/DLList2.jpeg  used on input line 902.
+Package pdftex.def Info: Pictures/DLList2.jpeg  used on input line 191.
 (pdftex.def)             Requested size: 81.30354pt x 110.41222pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 202.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 202.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 202.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 216.
+LaTeX Font Info:    Font shape `T1/pag/bx/n' in size <6> not available
+(Font)              Font shape `T1/pag/b/n' tried instead on input line 216.
+LaTeX Font Info:    Font shape `T1/pag/b/n' in size <6> not available
+(Font)              Font shape `T1/pag/db/n' tried instead on input line 216.
 
-Underfull \hbox (badness 10000) in paragraph at lines 927--928
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
 
  []
 
-<Pictures/DLList3.jpeg, id=783, 419.5675pt x 112.42pt>
+<Pictures/DLList3.jpeg, id=117, 419.5675pt x 112.42pt>
 File: Pictures/DLList3.jpeg Graphic file (type jpg)
 <use Pictures/DLList3.jpeg>
-Package pdftex.def Info: Pictures/DLList3.jpeg  used on input line 936.
+Package pdftex.def Info: Pictures/DLList3.jpeg  used on input line 225.
 (pdftex.def)             Requested size: 209.78323pt x 56.20985pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 932--938
+Underfull \hbox (badness 10000) in paragraph at lines 221--227
 
  []
 
-[39 <./Pictures/DLList1.jpeg> <./Pictures/DLList2.jpeg>]
-<Pictures/DLList4.jpeg, id=812, 419.5675pt x 216.81pt>
+[7 <./Pictures/DLList1.jpeg> <./Pictures/DLList2.jpeg>]
+<Pictures/DLList5-set.jpeg, id=149, 314.67563pt x 162.6075pt>
+File: Pictures/DLList5-set.jpeg Graphic file (type jpg)
+<use Pictures/DLList5-set.jpeg>
+Package pdftex.def Info: Pictures/DLList5-set.jpeg  used on input line 232.
+(pdftex.def)             Requested size: 157.33742pt x 81.30354pt.
+<Pictures/DLList4.jpeg, id=150, 419.5675pt x 216.81pt>
 File: Pictures/DLList4.jpeg Graphic file (type jpg)
 <use Pictures/DLList4.jpeg>
-Package pdftex.def Info: Pictures/DLList4.jpeg  used on input line 943.
+Package pdftex.def Info: Pictures/DLList4.jpeg  used on input line 244.
 (pdftex.def)             Requested size: 209.78323pt x 108.40472pt.
-File: Pictures/DLList4.jpeg Graphic file (type jpg)
-<use Pictures/DLList4.jpeg>
-Package pdftex.def Info: Pictures/DLList4.jpeg  used on input line 955.
-(pdftex.def)             Requested size: 209.78323pt x 108.40472pt.
-<Pictures/DLList5.jpeg, id=813, 419.5675pt x 216.81pt>
+<Pictures/DLList5.jpeg, id=151, 419.5675pt x 216.81pt>
 File: Pictures/DLList5.jpeg Graphic file (type jpg)
 <use Pictures/DLList5.jpeg>
-Package pdftex.def Info: Pictures/DLList5.jpeg  used on input line 961.
+Package pdftex.def Info: Pictures/DLList5.jpeg  used on input line 250.
 (pdftex.def)             Requested size: 209.78323pt x 108.40472pt.
-<Pictures/DLList6.jpeg, id=814, 419.5675pt x 216.81pt>
+<Pictures/DLList6.jpeg, id=152, 419.5675pt x 216.81pt>
 File: Pictures/DLList6.jpeg Graphic file (type jpg)
 <use Pictures/DLList6.jpeg>
-Package pdftex.def Info: Pictures/DLList6.jpeg  used on input line 967.
+Package pdftex.def Info: Pictures/DLList6.jpeg  used on input line 256.
 (pdftex.def)             Requested size: 209.78323pt x 108.40472pt.
- [40 <./Pictures/DLList3.jpeg> <./Pictures/DLList4.jpeg> <./Pictures/DLList5.jp
-eg>]
-<Pictures/DLList7.jpeg, id=826, 543.02875pt x 151.56625pt>
+ [8 <./Pictures/DLList3.jpeg> <./Pictures/DLList5-set.jpeg> <./Pictures/DLList4
+.jpeg> <./Pictures/DLList5.jpeg>]
+<Pictures/DLList7.jpeg, id=164, 543.02875pt x 151.56625pt>
 File: Pictures/DLList7.jpeg Graphic file (type jpg)
 <use Pictures/DLList7.jpeg>
-Package pdftex.def Info: Pictures/DLList7.jpeg  used on input line 973.
+Package pdftex.def Info: Pictures/DLList7.jpeg  used on input line 262.
 (pdftex.def)             Requested size: 271.5137pt x 75.78293pt.
- [41 <./Pictures/DLList6.jpeg> <./Pictures/DLList7.jpeg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1045--1046
+ [9 <./Pictures/DLList6.jpeg> <./Pictures/DLList7.jpeg>]
+Underfull \hbox (badness 10000) in paragraph at lines 335--336
 
  []
 
 File: Pictures/DLList3.jpeg Graphic file (type jpg)
 <use Pictures/DLList3.jpeg>
-Package pdftex.def Info: Pictures/DLList3.jpeg  used on input line 1055.
+Package pdftex.def Info: Pictures/DLList3.jpeg  used on input line 345.
 (pdftex.def)             Requested size: 209.78323pt x 56.20985pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1050--1057
+Underfull \hbox (badness 10000) in paragraph at lines 340--347
 
  []
 
-File: Pictures/DLList4.jpeg Graphic file (type jpg)
-<use Pictures/DLList4.jpeg>
-Package pdftex.def Info: Pictures/DLList4.jpeg  used on input line 1062.
-(pdftex.def)             Requested size: 209.78323pt x 108.40472pt.
+File: Pictures/DLList5-set.jpeg Graphic file (type jpg)
+<use Pictures/DLList5-set.jpeg>
+Package pdftex.def Info: Pictures/DLList5-set.jpeg  used on input line 352.
+(pdftex.def)             Requested size: 157.33742pt x 81.30354pt.
 
 Underfull \vbox (badness 1789) has occurred while \output is active []
 
- [42]
-Underfull \hbox (badness 10000) in paragraph at lines 1066--1067
+ [10]
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
-File: Pictures/DLList4.jpeg Graphic file (type jpg)
-<use Pictures/DLList4.jpeg>
-Package pdftex.def Info: Pictures/DLList4.jpeg  used on input line 1076.
-(pdftex.def)             Requested size: 209.78323pt x 108.40472pt.
-File: Pictures/DLList5.jpeg Graphic file (type jpg)
-<use Pictures/DLList5.jpeg>
-Package pdftex.def Info: Pictures/DLList5.jpeg  used on input line 1082.
-(pdftex.def)             Requested size: 209.78323pt x 108.40472pt.
-File: Pictures/DLList6.jpeg Graphic file (type jpg)
-<use Pictures/DLList6.jpeg>
-Package pdftex.def Info: Pictures/DLList6.jpeg  used on input line 1088.
-(pdftex.def)             Requested size: 209.78323pt x 108.40472pt.
-
-Underfull \vbox (badness 4132) has occurred while \output is active []
-
- [43]
-File: Pictures/DLList7.jpeg Graphic file (type jpg)
-<use Pictures/DLList7.jpeg>
-Package pdftex.def Info: Pictures/DLList7.jpeg  used on input line 1094.
-(pdftex.def)             Requested size: 271.5137pt x 75.78293pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1101
+<Pictures/DLList4-add.jpg, id=244, 314.67563pt x 162.6075pt>
+File: Pictures/DLList4-add.jpg Graphic file (type jpg)
+<use Pictures/DLList4-add.jpg>
+Package pdftex.def Info: Pictures/DLList4-add.jpg  used on input line 366.
+(pdftex.def)             Requested size: 157.33742pt x 81.30354pt.
+<Pictures/DLList5-add.jpg, id=245, 314.67563pt x 162.6075pt>
+File: Pictures/DLList5-add.jpg Graphic file (type jpg)
+<use Pictures/DLList5-add.jpg>
+Package pdftex.def Info: Pictures/DLList5-add.jpg  used on input line 372.
+(pdftex.def)             Requested size: 157.33742pt x 81.30354pt.
+<Pictures/DLList6-add.jpg, id=246, 314.67563pt x 162.6075pt>
+File: Pictures/DLList6-add.jpg Graphic file (type jpg)
+<use Pictures/DLList6-add.jpg>
+Package pdftex.def Info: Pictures/DLList6-add.jpg  used on input line 378.
+(pdftex.def)             Requested size: 157.33742pt x 81.30354pt.
+<Pictures/DLList7-add.jpg, id=247, 407.27156pt x 113.67468pt>
+File: Pictures/DLList7-add.jpg Graphic file (type jpg)
+<use Pictures/DLList7-add.jpg>
+Package pdftex.def Info: Pictures/DLList7-add.jpg  used on input line 384.
+(pdftex.def)             Requested size: 203.63527pt x 56.83719pt.
+[11 <./Pictures/DLList4-add.jpg> <./Pictures/DLList5-add.jpg> <./Pictures/DLLis
+t6-add.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 389--391
 
  []
 
-<Pictures/DLAdd1.jpg, id=917, 560.0925pt x 226.59656pt>
+<Pictures/DLAdd1.jpg, id=259, 560.0925pt x 226.59656pt>
 File: Pictures/DLAdd1.jpg Graphic file (type jpg)
 <use Pictures/DLAdd1.jpg>
-Package pdftex.def Info: Pictures/DLAdd1.jpg  used on input line 1108.
+Package pdftex.def Info: Pictures/DLAdd1.jpg  used on input line 398.
 (pdftex.def)             Requested size: 280.04556pt x 113.29799pt.
-<Pictures/DLAdd2.jpg, id=918, 560.0925pt x 226.59656pt>
+<Pictures/DLAdd2.jpg, id=260, 560.0925pt x 226.59656pt>
 File: Pictures/DLAdd2.jpg Graphic file (type jpg)
 <use Pictures/DLAdd2.jpg>
-Package pdftex.def Info: Pictures/DLAdd2.jpg  used on input line 1114.
+Package pdftex.def Info: Pictures/DLAdd2.jpg  used on input line 404.
 (pdftex.def)             Requested size: 280.04556pt x 113.29799pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44 <./Pictures/DLAdd1.jpg>]
-<Pictures/DLAdd3.jpg, id=929, 560.0925pt x 301.8778pt>
+<Pictures/DLAdd3.jpg, id=261, 560.0925pt x 301.8778pt>
 File: Pictures/DLAdd3.jpg Graphic file (type jpg)
 <use Pictures/DLAdd3.jpg>
-Package pdftex.def Info: Pictures/DLAdd3.jpg  used on input line 1120.
+Package pdftex.def Info: Pictures/DLAdd3.jpg  used on input line 410.
 (pdftex.def)             Requested size: 280.04556pt x 150.93852pt.
-<Pictures/DLAdd4.jpg, id=930, 560.0925pt x 280.04625pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12 <./Pictures/DLList7-add.jpg> <./Pictures/DLAdd1.jpg> <./Pictures/DLAdd2.jp
+g>]
+<Pictures/DLAdd4.jpg, id=272, 560.0925pt x 280.04625pt>
 File: Pictures/DLAdd4.jpg Graphic file (type jpg)
 <use Pictures/DLAdd4.jpg>
-Package pdftex.def Info: Pictures/DLAdd4.jpg  used on input line 1126.
+Package pdftex.def Info: Pictures/DLAdd4.jpg  used on input line 416.
 (pdftex.def)             Requested size: 280.04556pt x 140.02277pt.
-<Pictures/DLAdd5.jpg, id=931, 560.0925pt x 301.8778pt>
+<Pictures/DLAdd5.jpg, id=273, 560.0925pt x 301.8778pt>
 File: Pictures/DLAdd5.jpg Graphic file (type jpg)
 <use Pictures/DLAdd5.jpg>
-Package pdftex.def Info: Pictures/DLAdd5.jpg  used on input line 1132.
+Package pdftex.def Info: Pictures/DLAdd5.jpg  used on input line 422.
 (pdftex.def)             Requested size: 280.04556pt x 150.93852pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [45 <./Pictures/DLAdd2.jpg> <./Pictures/DLAdd3.jpg> <./Pictures/DLAdd4.jpg>]
-<Pictures/DLAdd5(1).jpg, id=939, 560.0925pt x 301.8778pt>
+<Pictures/DLAdd5(1).jpg, id=274, 560.0925pt x 301.8778pt>
 File: Pictures/DLAdd5(1).jpg Graphic file (type jpg)
 <use Pictures/DLAdd5(1).jpg>
-Package pdftex.def Info: Pictures/DLAdd5(1).jpg  used on input line 1138.
+Package pdftex.def Info: Pictures/DLAdd5(1).jpg  used on input line 428.
 (pdftex.def)             Requested size: 280.04556pt x 150.93852pt.
-<Pictures/DLAdd6.jpg, id=940, 700.86844pt x 84.315pt>
+
+Underfull \vbox (badness 3019) has occurred while \output is active []
+
+ [13 <./Pictures/DLAdd3.jpg> <./Pictures/DLAdd4.jpg> <./Pictures/DLAdd5.jpg>]
+<Pictures/DLAdd6.jpg, id=283, 700.86844pt x 84.315pt>
 File: Pictures/DLAdd6.jpg Graphic file (type jpg)
 <use Pictures/DLAdd6.jpg>
-Package pdftex.def Info: Pictures/DLAdd6.jpg  used on input line 1144.
+Package pdftex.def Info: Pictures/DLAdd6.jpg  used on input line 434.
 (pdftex.def)             Requested size: 350.43336pt x 42.15738pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1149--1150
+Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
 
-<Pictures/DLAdd7.jpg, id=941, 700.86844pt x 226.59656pt>
+<Pictures/DLAdd7.jpg, id=284, 700.86844pt x 226.59656pt>
 File: Pictures/DLAdd7.jpg Graphic file (type jpg)
 <use Pictures/DLAdd7.jpg>
-Package pdftex.def Info: Pictures/DLAdd7.jpg  used on input line 1157.
+Package pdftex.def Info: Pictures/DLAdd7.jpg  used on input line 447.
 (pdftex.def)             Requested size: 350.43336pt x 113.29799pt.
-
-Underfull \vbox (badness 4024) has occurred while \output is active []
-
- [46 <./Pictures/DLAdd5.jpg> <./Pictures/DLAdd5(1).jpg> <./Pictures/DLAdd6.jpg>
-]
-<Pictures/DLAdd8.jpg, id=952, 701.62125pt x 279.29344pt>
+<Pictures/DLAdd8.jpg, id=285, 701.62125pt x 279.29344pt>
 File: Pictures/DLAdd8.jpg Graphic file (type jpg)
 <use Pictures/DLAdd8.jpg>
-Package pdftex.def Info: Pictures/DLAdd8.jpg  used on input line 1163.
+Package pdftex.def Info: Pictures/DLAdd8.jpg  used on input line 453.
 (pdftex.def)             Requested size: 350.80975pt x 139.64638pt.
-<Pictures/DLAdd10.jpg, id=953, 1118.1775pt x 113.42375pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14 <./Pictures/DLAdd5(1).jpg> <./Pictures/DLAdd6.jpg> <./Pictures/DLAdd7.jpg>
+]
+<Pictures/DLAdd10.jpg, id=296, 1118.1775pt x 113.42375pt>
 File: Pictures/DLAdd10.jpg Graphic file (type jpg)
 <use Pictures/DLAdd10.jpg>
-Package pdftex.def Info: Pictures/DLAdd10.jpg  used on input line 1169.
+Package pdftex.def Info: Pictures/DLAdd10.jpg  used on input line 459.
 (pdftex.def)             Requested size: 559.08739pt x 56.71173pt.
 
-Overfull \hbox (132.29604pt too wide) in paragraph at lines 1169--1170
+Overfull \hbox (132.29604pt too wide) in paragraph at lines 459--460
  [][] 
  []
 
-<Pictures/DLAdd11.jpg, id=954, 1118.1775pt x 194.7275pt>
+<Pictures/DLAdd11.jpg, id=297, 1118.1775pt x 194.7275pt>
 File: Pictures/DLAdd11.jpg Graphic file (type jpg)
 <use Pictures/DLAdd11.jpg>
-Package pdftex.def Info: Pictures/DLAdd11.jpg  used on input line 1181.
+Package pdftex.def Info: Pictures/DLAdd11.jpg  used on input line 471.
 (pdftex.def)             Requested size: 559.08739pt x 97.3635pt.
 
-Overfull \hbox (132.29604pt too wide) in paragraph at lines 1181--1182
+Overfull \hbox (132.29604pt too wide) in paragraph at lines 471--472
  [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [47 <./Pictures/DLAdd7.jpg> <./Pictures/DLAdd8.jpg> <./Pictures/DLAdd10.jpg>]
-<Pictures/DLAdd12.jpg, id=965, 1118.1775pt x 194.7275pt>
+<Pictures/DLAdd12.jpg, id=298, 1118.1775pt x 194.7275pt>
 File: Pictures/DLAdd12.jpg Graphic file (type jpg)
 <use Pictures/DLAdd12.jpg>
-Package pdftex.def Info: Pictures/DLAdd12.jpg  used on input line 1187.
+Package pdftex.def Info: Pictures/DLAdd12.jpg  used on input line 477.
 (pdftex.def)             Requested size: 559.08739pt x 97.3635pt.
 
-Overfull \hbox (132.29604pt too wide) in paragraph at lines 1187--1188
+Overfull \hbox (132.29604pt too wide) in paragraph at lines 477--478
  [][] 
  []
 
-<Pictures/DLAdd13.jpg, id=966, 1118.1775pt x 194.7275pt>
-File: Pictures/DLAdd13.jpg Graphic file (type jpg)
-<use Pictures/DLAdd13.jpg>
-Package pdftex.def Info: Pictures/DLAdd13.jpg  used on input line 1193.
-(pdftex.def)             Requested size: 559.08739pt x 97.3635pt.
-
-Overfull \hbox (132.29604pt too wide) in paragraph at lines 1193--1194
- [][] 
- []
-
-[48 <./Pictures/DLAdd11.jpg> <./Pictures/DLAdd12.jpg> <./Pictures/DLAdd13.jpg>]
-<Pictures/DLShow1.jpg, id=985, 637.38126pt x 391.4625pt>
-File: Pictures/DLShow1.jpg Graphic file (type jpg)
-<use Pictures/DLShow1.jpg>
-Package pdftex.def Info: Pictures/DLShow1.jpg  used on input line 1219.
-(pdftex.def)             Requested size: 318.68985pt x 195.73076pt.
-<Pictures/DLShow2.jpg, id=986, 637.38126pt x 391.4625pt>
-File: Pictures/DLShow2.jpg Graphic file (type jpg)
-<use Pictures/DLShow2.jpg>
-Package pdftex.def Info: Pictures/DLShow2.jpg  used on input line 1225.
-(pdftex.def)             Requested size: 318.68985pt x 195.73076pt.
-<Pictures/DLShow3.jpg, id=987, 640.3925pt x 391.4625pt>
-File: Pictures/DLShow3.jpg Graphic file (type jpg)
-<use Pictures/DLShow3.jpg>
-Package pdftex.def Info: Pictures/DLShow3.jpg  used on input line 1231.
-(pdftex.def)             Requested size: 320.19547pt x 195.73076pt.
-[49 <./Pictures/DLShow1.jpg> <./Pictures/DLShow2.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1245--1246
-
- []
-
-[50 <./Pictures/DLShow3.jpg>] [51] [52
-
-]
-Chapter 4.
-File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
-<use Pictures/chapter_head_2.pdf>
-Package pdftex.def Info: Pictures/chapter_head_2.pdf  used on input line 1257.
-(pdftex.def)             Requested size: 597.50787pt x 298.75726pt.
-<Pictures/UML.jpeg, id=1015, 322.20375pt x 236.885pt>
-File: Pictures/UML.jpeg Graphic file (type jpg)
-<use Pictures/UML.jpeg>
-Package pdftex.def Info: Pictures/UML.jpeg  used on input line 1263.
-(pdftex.def)             Requested size: 161.10147pt x 118.4422pt.
-[53 <./Pictures/UML.jpeg>]
-<Pictures/Class.png, id=1021, 369.63094pt x 210.03468pt>
-File: Pictures/Class.png Graphic file (type png)
-<use Pictures/Class.png>
-Package pdftex.def Info: Pictures/Class.png  used on input line 1316.
-(pdftex.def)             Requested size: 184.815pt x 105.01707pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [54]
-Package mdframed Info: mdframed works in twoside mode on input line 1338.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 1338.
+ [15 <./Pictures/DLAdd8.jpg> <./Pictures/DLAdd10.jpg> <./Pictures/DLAdd11.jpg>]
+<Pictures/DLAdd13.jpg, id=309, 1118.1775pt x 194.7275pt>
+File: Pictures/DLAdd13.jpg Graphic file (type jpg)
+<use Pictures/DLAdd13.jpg>
+Package pdftex.def Info: Pictures/DLAdd13.jpg  used on input line 483.
+(pdftex.def)             Requested size: 559.08739pt x 97.3635pt.
 
-[55 <./Pictures/Class.png>] [56] [57] [58
-
-]
-Chapter 5.
-File: Pictures/chapter_head_2.pdf Graphic file (type pdf)
-<use Pictures/chapter_head_2.pdf>
-Package pdftex.def Info: Pictures/chapter_head_2.pdf  used on input line 1363.
-(pdftex.def)             Requested size: 597.50787pt x 298.75726pt.
-Package mdframed Info: mdframed works in twoside mode on input line 1372.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 1372.
-Package mdframed Info: mdframed works in twoside mode on input line 1383.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 1383.
-Package mdframed Info: mdframed works in twoside mode on input line 1393.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 1393.
-[59]
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1422.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1422.
-Package mdframed Info: mdframed works in twoside mode on input line 1431.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 1431.
- [60]
-Package mdframed Info: mdframed works in twoside mode on input line 1486.
-Package mdframed Info: mdframed detected package amsthm 
- changed the theorem header of amsthm
-(mdframed)              on input line 1486.
- [61] [62
-
-] (main.ptc) [63] [64]
-Chapter 6.
-File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
-<use Pictures/chapter_head_1.pdf>
-Package pdftex.def Info: Pictures/chapter_head_1.pdf  used on input line 1520.
-(pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
-<Pictures/placeholder.jpg, id=1171, 351.3125pt x 193.72375pt>
-File: Pictures/placeholder.jpg Graphic file (type jpg)
-<use Pictures/placeholder.jpg>
-Package pdftex.def Info: Pictures/placeholder.jpg  used on input line 1543.
-(pdftex.def)             Requested size: 175.6558pt x 96.86163pt.
-[65
-
- <./Pictures/placeholder.jpg>] [66
-
-]
-File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
-<use Pictures/chapter_head_1.pdf>
-Package pdftex.def Info: Pictures/chapter_head_1.pdf  used on input line 1551.
-(pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
-
-
-Package biblatex Warning: Type 'article' not found on input line 1558.
-
-
-LaTeX Warning: Empty bibliography on input line 1558.
-
-
-Package biblatex Warning: Type 'book' not found on input line 1564.
-
-
-LaTeX Warning: Empty bibliography on input line 1564.
-
-[67] [68
-
-] (main.ind
-File: Pictures/chapter_head_1.pdf Graphic file (type pdf)
-<use Pictures/chapter_head_1.pdf>
-Package pdftex.def Info: Pictures/chapter_head_1.pdf  used on input line 1.
-(pdftex.def)             Requested size: 597.50787pt x 298.77907pt.
-
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 3--4
-[][] 
+Overfull \hbox (132.29604pt too wide) in paragraph at lines 483--484
+ [][] 
  []
 
+[16 <./Pictures/DLAdd12.jpg> <./Pictures/DLAdd13.jpg>]
+<Pictures/DLShow1.jpg, id=327, 637.38126pt x 391.4625pt>
+File: Pictures/DLShow1.jpg Graphic file (type jpg)
+<use Pictures/DLShow1.jpg>
+Package pdftex.def Info: Pictures/DLShow1.jpg  used on input line 510.
+(pdftex.def)             Requested size: 318.68985pt x 195.73076pt.
+<Pictures/DLShow2.jpg, id=328, 637.38126pt x 391.4625pt>
+File: Pictures/DLShow2.jpg Graphic file (type jpg)
+<use Pictures/DLShow2.jpg>
+Package pdftex.def Info: Pictures/DLShow2.jpg  used on input line 516.
+(pdftex.def)             Requested size: 318.68985pt x 195.73076pt.
+ [17 <./Pictures/DLShow1.jpg> <./Pictures/DLShow2.jpg>]
+<Pictures/DLShow3.jpg, id=338, 640.3925pt x 391.4625pt>
+File: Pictures/DLShow3.jpg Graphic file (type jpg)
+<use Pictures/DLShow3.jpg>
+Package pdftex.def Info: Pictures/DLShow3.jpg  used on input line 523.
+(pdftex.def)             Requested size: 320.19547pt x 195.73076pt.
+ [18 <./Pictures/DLShow3.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 538--539
 
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 10--11
-[][] 
  []
 
-
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 16--17
-[][] 
- []
-
-
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 25--26
-[][] 
- []
-
-
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 31--32
-[][] 
- []
-
-
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 40--41
-[][] 
- []
-
-
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 46--47
-[][] 
- []
-
-
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 56--57
-[][] 
- []
-
-
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 62--63
-[][] 
- []
-
-
-Overfull \hbox (1.20001pt too wide) in paragraph at lines 71--72
-[][] 
- []
-
-[69
-
-])
-\tf@ptc=\write8
-\openout8 = `main.ptc'.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1578.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1578.
+[19] [20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 551.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 551.
  (main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1578.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1578.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 551.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 551.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41855 strings out of 493305
- 765548 string characters out of 3138875
- 1287310 words of memory out of 3000000
- 43865 multiletter control sequences out of 15000+200000
- 664518 words of font info for 317 fonts, out of 3000000 for 9000
+ 40619 strings out of 493305
+ 746664 string characters out of 3138875
+ 1286274 words of memory out of 3000000
+ 43242 multiletter control sequences out of 15000+200000
+ 624257 words of font info for 203 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,17n,65p,969b,3315s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,11n,65p,969b,1847s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc} <C:\Users\Hamza\App
 Data\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1095.pk><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
-onts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/symbols/msbm10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/rsfs/rsfs1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagd8a.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/urw/avantgar/uagk8a.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/urw/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/urw/avantgar/uagd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw
+/avantgar/uagk8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.
 pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program F
 iles/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (69 pages, 2134180 bytes).
+Output written on main.pdf (20 pages, 1415352 bytes).
 PDF statistics:
- 1560 PDF objects out of 1728 (max. 8388607)
- 676 named destinations out of 1000 (max. 500000)
- 70266 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 482 PDF objects out of 1000 (max. 8388607)
+ 213 named destinations out of 1000 (max. 500000)
+ 53488 words of extra memory for PDF output out of 61914 (max. 10000000)
 
