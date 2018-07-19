@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1528098975 source:c:\users\hamza\documents\solq2\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+
