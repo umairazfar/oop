@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1474798162 source:c:\users\hamza\downloads\compressed\week05\week05\lecture01\main.cpp
+	<iostream>
+	"Stack.h"
+
+1531982013 c:\users\hamza\downloads\compressed\week05\week05\lecture01\stack.h
+	"Node.h"
+
+1474792383 c:\users\hamza\downloads\compressed\week05\week05\lecture01\node.h
+
