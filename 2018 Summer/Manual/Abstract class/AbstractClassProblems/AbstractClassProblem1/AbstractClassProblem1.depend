@@ -1,0 +1,48 @@
+# depslib dependency file v1.0
+1514140574 source:c:\users\hamza\documents\abstractclassproblem1\main.cpp
+	<iostream>
+
+1531982718 source:c:\users\hamza\documents\abstractclassproblem1\src\shape.cpp
+	"Shape.h"
+
+1531984102 c:\users\hamza\documents\abstractclassproblem1\include\shape.h
+	"Position.h"
+
+1531982730 c:\users\hamza\documents\abstractclassproblem1\include\position.h
+
+1531982743 source:c:\users\hamza\documents\abstractclassproblem1\src\position.cpp
+
+1531984231 source:c:\users\hamza\documents\abstractclassproblem1\src\circle.cpp
+	"Circle.h"
+
+1531984112 c:\users\hamza\documents\abstractclassproblem1\include\circle.h
+	"Shape.h"
+
+1531984132 source:c:\users\hamza\documents\abstractclassproblem1\src\triangle.cpp
+	"Triangle.h"
+
+1531984119 c:\users\hamza\documents\abstractclassproblem1\include\triangle.h
+	"Shape.h"
+
+1531984231 source:c:\users\hamza\documents\abstractclassproblems\abstractclassproblem1\circle.cpp
+	"Circle.h"
+
+1531984112 c:\users\hamza\documents\abstractclassproblems\abstractclassproblem1\circle.h
+	"Shape.h"
+
+1531984102 c:\users\hamza\documents\abstractclassproblems\abstractclassproblem1\shape.h
+	"Position.h"
+
+1531982730 c:\users\hamza\documents\abstractclassproblems\abstractclassproblem1\position.h
+
+1531982743 source:c:\users\hamza\documents\abstractclassproblems\abstractclassproblem1\position.cpp
+
+1531982718 source:c:\users\hamza\documents\abstractclassproblems\abstractclassproblem1\shape.cpp
+	"Shape.h"
+
+1531984132 source:c:\users\hamza\documents\abstractclassproblems\abstractclassproblem1\triangle.cpp
+	"Triangle.h"
+
+1531984119 c:\users\hamza\documents\abstractclassproblems\abstractclassproblem1\triangle.h
+	"Shape.h"
+

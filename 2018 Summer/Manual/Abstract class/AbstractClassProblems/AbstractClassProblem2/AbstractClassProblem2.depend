@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1531985088 source:c:\users\hamza\documents\abstractclassproblem2\main.cpp
+	<iostream>
+	"Derived3.h"
+
+1531985154 source:c:\users\hamza\documents\abstractclassproblem2\src\derived3.cpp
+	<iostream>
+	"Derived3.h"
+
+1531984858 c:\users\hamza\documents\abstractclassproblem2\include\derived3.h
+	"Derived2.h"
+
+1531984773 c:\users\hamza\documents\abstractclassproblem2\include\derived2.h
+	"Derived1.h"
+
+1531984773 c:\users\hamza\documents\abstractclassproblem2\include\derived1.h
+	"Base.h"
+
+1531984606 c:\users\hamza\documents\abstractclassproblem2\include\base.h
+
+1531985169 source:c:\users\hamza\documents\abstractclassproblems\abstractclassproblem2\main.cpp
+	<iostream>
+	"Derived3.h"
+
