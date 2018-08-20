@@ -1,0 +1,11 @@
+About this game:
+  This game is a new version of Pac-Man, a popular game released in 1980s. 
+  It has the theme and design just like the original game, but with a few differences:
+    1. The theme revolves around eating food items such as candies and lollipops as opposed to dots and power pellets.
+    2. This game can be saved and/or loaded.
+    3. The levels are generated randomly and the game has endless levels.
+
+Improvements:
+  1. There is no path finding algorithm in ghost movements. They are moving randomly. Algorithms like A* search or BFS/DFS analysis can be used to make this game more interesting.
+  2. The mazes are generated using shapes. A function is used to generate different shapes, and that function is called to generate shapes all over the grid to make it look like a pacman maze.
+  Since there is no proper algorithm for making a maze, an improvement to this game may be to develop one for it so that the possibility of getting a blocked region is eliminated completely. 
