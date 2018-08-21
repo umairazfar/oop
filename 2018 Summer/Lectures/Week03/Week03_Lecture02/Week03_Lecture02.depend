@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1529486846 source:c:\work\codeblocks_projects\week03_lecture02\main.cpp
+	<iostream>
+	"Queue.h"
+
+1529487247 c:\work\codeblocks_projects\week03_lecture02\queue.h
+

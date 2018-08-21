@@ -1,0 +1,27 @@
+Class Exercise:
+
+Write a program that takes in the name of two teams.
+
+It then takes a toss and decides which team will play first.
+
+It will then play the entire innings of the first team.
+
+The innings will end if all 50 overs have been played or the entire team gets out.
+
+It will then play the entire innings of the second team.
+
+The innings will end if all 50 overs have been played, it beats the score of the first team or the entire team gets out.
+
+It will then declare the winning team.
+
+Man of the match will be given to the player who scored the most runs.
+
+----------------------------
+Tips:
+----------------------------
+
+Make the code in parts by breaking the problem into smaller components
+
+Do not try to do everything initially
+
+Once the parts start to work, try to join them

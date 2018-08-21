@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1473103783 source:c:\work\cs-224 - oop&dm\2018 summer\assignments & lectures\week02\week02_lecture01\light.cpp
+	"Light.h"
+	<iostream>
+
+1528796726 c:\work\cs-224 - oop&dm\2018 summer\assignments & lectures\week02\week02_lecture01\light.h
+
+1528796546 source:c:\work\cs-224 - oop&dm\2018 summer\assignments & lectures\week02\week02_lecture01\main.cpp
+	<iostream>
+	"Light.h"
+

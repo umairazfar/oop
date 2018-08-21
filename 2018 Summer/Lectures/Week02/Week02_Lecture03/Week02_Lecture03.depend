@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1528883282 source:c:\work\cs-224 - oop&dm\2018 summer\assignments & lectures\week02\week02_lecture03\circle.cpp
+	"Circle.h"
+
+1528880843 c:\work\cs-224 - oop&dm\2018 summer\assignments & lectures\week02\week02_lecture03\circle.h
+	"Point.h"
+	<iostream>
+
+1474232682 c:\work\cs-224 - oop&dm\2018 summer\assignments & lectures\week02\week02_lecture03\point.h
+
+1528881022 source:c:\work\cs-224 - oop&dm\2018 summer\assignments & lectures\week02\week02_lecture03\main.cpp
+	<iostream>
+	"Circle.h"
+
